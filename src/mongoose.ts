@@ -14,7 +14,6 @@ async function runDemo() {
     console.log('🧹 Cleaning database...');
     await UserModel.deleteMany({});
     await OrganizationModel.deleteMany({});
-    // <-- NUEVO: Limpiamos también los proyectos para que la prueba sea repetible
     await ProjectModel.deleteMany({}); 
 
     // --- 3. SEEDING (The missing part) ---
@@ -86,13 +85,12 @@ async function runDemo() {
     console.table(stats);
 
     // --- 6. DEMO: NUEVO SERVICE LAYER (PROJECT) ---
-    // <-- NUEVO: Aquí probamos todo lo que te pide la práctica
     console.log('\n🚀 PROBANDO EL CRUD DE PROJECT (SERVICE LAYER):');
     
     // 6.1 Create
     const myProject = await ProjectService.create({
       title: 'Dominar el mundo',
-      organization: umbrellaId // Enlazamos con la ID de Umbrella Corp que ya existe
+      organization: umbrellaId 
     });
     console.log('✅ 1. Create -> Creado:', myProject.title);
 

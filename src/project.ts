@@ -6,22 +6,19 @@ export interface IProject {
   _id?: string;
   title: string;
   status: 'PENDING' | 'IN_PROGRESS' | 'DONE';
-  // 👇 AQUÍ ESTÁ LA MAGIA: Le decimos a TS que acepte ObjectId o un string normal
   organization: Types.ObjectId | string; 
 }
 
 const projectSchema = new Schema<IProject>({
   title: { type: String, required: true },
   status: { type: String, enum: ['PENDING', 'IN_PROGRESS', 'DONE'], default: 'PENDING' },
-  // En el Schema (la base de datos) sigue siendo un ObjectId estricto
   organization: { type: Schema.Types.ObjectId, ref: 'Organization', required: true } 
 });
 
 export const ProjectModel = model<IProject>('Project', projectSchema);
 
-// --- 2. SERVICE LAYER (El CRUD que pide el profe) ---
+// --- 2. SERVICE LAYER ---
 export const ProjectService = {
-  // create: Guarda un nuevo documento
   create: async (data: Partial<IProject>) => {
     return await ProjectModel.create(data);
   },
