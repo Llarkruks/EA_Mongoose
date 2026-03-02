@@ -7,7 +7,7 @@ https://www.reddit.com/r/webdev/comments/15lwnym/what_do_people_mean_by_a_simple
 
 https://www.codecademy.com/article/what-is-crud-explained --> Article per com utilitzar un CRUD
 
-
+__________________________________________________________________________________________________________________
 
 **Ús de la IA generativa**
 
