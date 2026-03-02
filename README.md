@@ -9,6 +9,7 @@ https://www.codecademy.com/article/what-is-crud-explained --> Article per com ut
 
 
 **Ús de la IA generativa**
+
 S’ha utilitzat la IA generativa per a aclarir l'ús del "lean" i per saber com comprovar si funciona el codi,
 ja que no tenia clar si havia de crear una demo apart o simplement afegir-ho a l'arxiu "mongoose".
 A més m'ha servit per, una vegada fossi funcional, m'expliqués més detalladament el perquè de les respostes.
