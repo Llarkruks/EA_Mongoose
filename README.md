@@ -1,41 +1,11 @@
-# EA Node.js + TypeScript + Mongoose
+Documentació
+Referències
 
-## Requisitos Previos
+Apunts i explicacions del professor a classe.
+https://www.reddit.com/r/webdev/comments/15lwnym/what_do_people_mean_by_a_simple_crud_app/ --> Article de reddit per veure millor quan un CRUD
+https://www.codecademy.com/article/what-is-crud-explained --> Article per com utilitzar un CRUD
 
-Asegúrate de tener instalados los siguientes programas en tu sistema:
-
-- [Node.js](https://nodejs.org/) (versión 14.x o superior)
-- [MongoDB](https://www.mongodb.com/) (puede ser local o en la nube a través de MongoDB Atlas)
-- [npm](https://www.npmjs.com/) 
-- [TS] TypeScript
-
-Instalar TypeScript
-```
-npm install -g typescript
-```
-
-## Clonar el proyecto
-
-```
-git clone https://github.com/rocmeseguer/EA-Mongoose
-cd EA-Mongoose
-```
-
-## Dependencias del proyecto
-
-Instalar Mongoose y otras dependencias
-```
-npm install
-```
-
-## Complilación y ejecución
-
-Transpilar de TS a JS
-```
-tsc 
-```
-
-Ejecutar JS
-```
-node dist/mongoogse.js
-```
+Ús de la IA generativa
+S’ha utilitzat la IA generativa per a aclarir l'ús del "lean" i per saber com comprovar si funciona el codi,
+ja que no tenia clar si havia de crear una demo apart o simplement afegir-ho a l'arxiu "mongoose".
+A més m'ha servit per, una vegada fossi funcional, m'expliqués més detalladament el perquè de les respostes.
