@@ -2,7 +2,8 @@ Documentació
 Referències
 
 Apunts i explicacions del professor a classe.
-https://www.reddit.com/r/webdev/comments/15lwnym/what_do_people_mean_by_a_simple_crud_app/ --> Article de reddit per veure millor quan un CRUD
+https://www.reddit.com/r/webdev/comments/15lwnym/what_do_people_mean_by_a_simple_crud_app/ --> Article de reddit per veure millor quan fer un CRUD
+
 https://www.codecademy.com/article/what-is-crud-explained --> Article per com utilitzar un CRUD
 
 Ús de la IA generativa
